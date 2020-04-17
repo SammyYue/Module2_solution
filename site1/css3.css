@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 50px;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  border: 1px solid red;
+  text-align: center;
+  width: 50%;
+  float:right;
+  background-color: white;
+  position: relative;
+  right: 5%;
+  margin-top: 4.7%;
+  font-size: 40px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  font-family: Helvetica;
+  color: black;
+  font-size: 24px;
+  padding: 17% 10% 5% 10%;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .b-lg {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .b-md{
+    float: left;
+    width: 50%;
+  }
+
+  .b1-md{
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .b-s{
+    float: left;
+    width: 100%;
+  }
+}
